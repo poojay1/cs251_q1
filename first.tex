@@ -28,4 +28,21 @@ Are you looking for tricks that can make arithmetic calculations easier for you.
 \section{Trick number 1}
 \label{sec1}
 Suppose you have to multiply two natural numbers between 1 and 100 whose first digits are the same and the sum of their second digit is 10. Multiplying them in the conventional way takes up time and space, and there exists a very simple trick for this problem. By this trick, the multiplication of two 2-digit numbers can be reduced to multiplication of single digit numbers and additions involving one digit.
+\subsection{Algorithm}
+\begin{algorithm}[H]
+input $n_1, n_2$
+\begin{algorithmic}[1]
+\If {$(n_1<0)$ or $(n_1>100)$ or $(n_2<0)$ or $(n_2>100)$}
+\State Exit
+\EndIf
+\If {($n_1/10$ != $n_2/10$) or (($n_1$ mod 10) + ($n_2$ mod 10) != 10)}
+\State Exit
+\EndIf
+\\
+$d_1$ $\gets$ $n_1/10$ \\ 
+$d_2$ $\gets$ $n_1$ mod 10 \\
+prod $\gets$ $(100*d_1*(d_1+1)) + (d_2 * (10 - d_2))$ \\
+\end{algorithmic}
+\end{algorithm}
 \end{document}
+
