@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.2.20)  3 APR 2017 06:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.2.20)  3 APR 2017 06:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -685,8 +685,7 @@ File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks34
 \c@AM@survey=\count124
 \AM@templatesizebox=\box31
-)
-No file first.aux.
+) (./first.aux)
 \openout1 = `first.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -703,6 +702,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
+
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count125
@@ -747,6 +747,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 18.
 LaTeX Info: Redefining \pageref on input line 18.
 LaTeX Info: Redefining \nameref on input line 18.
+
+(./first.out) (./first.out)
 \@outlinefile=\write3
 \openout3 = `first.out'.
 
@@ -771,17 +773,18 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 31.
+No file first.bbl.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.31 \end{document}
+l.50 \end{document}
                     [1]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 31.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (./first.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 31.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 31.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
 
 
 Package rerunfilecheck Warning: File `first.out' has changed.
@@ -789,28 +792,29 @@ Package rerunfilecheck Warning: File `first.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `first.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  EAD3361DC1C4828BFA1C9C230AAC027C;96.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 31.
+(rerunfilecheck)             Before: EAD3361DC1C4828BFA1C9C230AAC027C;96
+(rerunfilecheck)             After:  1397453572026ACA183B4DFFFA6B628D;201.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 8478 strings out of 494945
- 118880 string characters out of 6181032
- 216060 words of memory out of 5000000
- 11651 multiletter control sequences out of 15000+600000
- 7442 words of font info for 29 fonts, out of 8000000 for 9000
+ 8527 strings out of 494945
+ 119459 string characters out of 6181032
+ 218192 words of memory out of 5000000
+ 11684 multiletter control sequences out of 15000+600000
+ 12403 words of font info for 48 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  37i,6n,39p,421b,375s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on first.pdf (2 pages, 38444 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb>
+Output written on first.pdf (2 pages, 76840 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 55 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
+ 17 words of extra memory for PDF output out of 10000 (max. 10000000)
 
